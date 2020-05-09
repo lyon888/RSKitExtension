@@ -1,0 +1,6 @@
+framework module RSKitExtension {
+  umbrella header "RSKitExtension-umbrella.h"
+
+  export *
+  module * { export * }
+}

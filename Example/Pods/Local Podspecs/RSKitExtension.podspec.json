@@ -1,0 +1,22 @@
+{
+  "name": "RSKitExtension",
+  "version": "0.1.0",
+  "summary": "A short description of RSKitExtension.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/lyon888/RSKitExtension",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "lyon888": "lyonLiu_job@163.com"
+  },
+  "source": {
+    "git": "https://github.com/lyon888/RSKitExtension.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "RSKitExtension/Classes/**/*"
+}

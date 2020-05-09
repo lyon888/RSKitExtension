@@ -1,0 +1,16 @@
+PODS:
+  - RSKitExtension (0.1.0)
+
+DEPENDENCIES:
+  - RSKitExtension (from `../`)
+
+EXTERNAL SOURCES:
+  RSKitExtension:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  RSKitExtension: d4600daea3380fbdddb5c9119afdd4d8d4673297
+
+PODFILE CHECKSUM: c0e999c40dcffc14b6c29496c4e42e0aff515279
+
+COCOAPODS: 1.8.4

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		136B916E24668E8800480F58 /* RSTextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 136B916B24668E8800480F58 /* RSTextViewController.m */; };
+		136B916F24668E8800480F58 /* RSTextViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 136B916D24668E8800480F58 /* RSTextViewController.xib */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -37,11 +39,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0FDEF110BBA3E68C59B06352 /* RSKitExtension.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = RSKitExtension.podspec; path = ../RSKitExtension.podspec; sourceTree = "<group>"; };
-		1C89F948AF9F4E4A589CA795 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		0FDEF110BBA3E68C59B06352 /* RSKitExtension.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = RSKitExtension.podspec; path = ../RSKitExtension.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		136B916B24668E8800480F58 /* RSTextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSTextViewController.m; sourceTree = "<group>"; };
+		136B916C24668E8800480F58 /* RSTextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSTextViewController.h; sourceTree = "<group>"; };
+		136B916D24668E8800480F58 /* RSTextViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RSTextViewController.xib; sourceTree = "<group>"; };
+		1C89F948AF9F4E4A589CA795 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		317CA6F535FF16C7A5936311 /* Pods-RSKitExtension_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RSKitExtension_Tests.debug.xcconfig"; path = "Target Support Files/Pods-RSKitExtension_Tests/Pods-RSKitExtension_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		5BD6C1C0D674BCA7586B40F9 /* Pods-RSKitExtension_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RSKitExtension_Tests.release.xcconfig"; path = "Target Support Files/Pods-RSKitExtension_Tests/Pods-RSKitExtension_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		5D664946E5A0A085A0E639E0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		5D664946E5A0A085A0E639E0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* RSKitExtension_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RSKitExtension_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -95,6 +100,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		136B916824668E8800480F58 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				136B916924668E8800480F58 /* Control */,
+			);
+			path = App;
+			sourceTree = SOURCE_ROOT;
+		};
+		136B916924668E8800480F58 /* Control */ = {
+			isa = PBXGroup;
+			children = (
+				136B916A24668E8800480F58 /* RSTextViewControl */,
+			);
+			path = Control;
+			sourceTree = "<group>";
+		};
+		136B916A24668E8800480F58 /* RSTextViewControl */ = {
+			isa = PBXGroup;
+			children = (
+				136B916B24668E8800480F58 /* RSTextViewController.m */,
+				136B916C24668E8800480F58 /* RSTextViewController.h */,
+				136B916D24668E8800480F58 /* RSTextViewController.xib */,
+			);
+			path = RSTextViewControl;
+			sourceTree = "<group>";
+		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
@@ -132,6 +163,7 @@
 		6003F593195388D20070C39A /* Example for RSKitExtension */ = {
 			isa = PBXGroup;
 			children = (
+				136B916824668E8800480F58 /* App */,
 				6003F59C195388D20070C39A /* RSAppDelegate.h */,
 				6003F59D195388D20070C39A /* RSAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -193,7 +225,6 @@
 				317CA6F535FF16C7A5936311 /* Pods-RSKitExtension_Tests.debug.xcconfig */,
 				5BD6C1C0D674BCA7586B40F9 /* Pods-RSKitExtension_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +289,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -281,6 +313,7 @@
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
+				136B916F24668E8800480F58 /* RSTextViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,6 +399,7 @@
 			files = (
 				6003F59E195388D20070C39A /* RSAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* RSViewController.m in Sources */,
+				136B916E24668E8800480F58 /* RSTextViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
