@@ -11,6 +11,7 @@
 #endif
 
 #import "RSTextView.h"
+#import "RSCountdownTool.h"
 
 FOUNDATION_EXPORT double RSKitExtensionVersionNumber;
 FOUNDATION_EXPORT const unsigned char RSKitExtensionVersionString[];

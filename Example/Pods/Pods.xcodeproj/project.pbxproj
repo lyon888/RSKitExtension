@@ -7,18 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		02DAA39D41089D6FA09DE3BB7F168318 /* RSCountdownTool.m in Sources */ = {isa = PBXBuildFile; fileRef = D2442C2A6E3BC07A65A3AA98B54F8F45 /* RSCountdownTool.m */; };
 		02DBFE7D13068F717B0BBE3EB3C2846C /* Pods-RSKitExtension_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F7423C5E0D246133E003C85C5E7F85 /* Pods-RSKitExtension_Tests-dummy.m */; };
-		2513ACA4FB8DE99565EE97723B27CFAD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		035CFDE50B8EDA0AF719732E9287A0BB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		23691766EC1CB500B5AD0F78F2CFC199 /* RSKitExtension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 40218482ACB9266AF78531B48A365885 /* RSKitExtension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		25F463F51AE58AE5C095A869FF757209 /* Pods-RSKitExtension_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 42E3575DF17E6E705D6851B471563A8D /* Pods-RSKitExtension_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		270AE8F451AF112B6535FF5197D0E41D /* RSTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BC66A3CF280A6E1C47283649AB4FF5F /* RSTextView.m */; };
+		3372677480A46DAD7B87336AACDD9C8C /* RSKitExtension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B7794740127B6F73EAD136F5EA78D15B /* RSKitExtension-dummy.m */; };
 		5E4844394E09EF83A6D4378403163C78 /* Pods-RSKitExtension_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 28DCB111862EA6718F880EBD8E2B1600 /* Pods-RSKitExtension_Example-dummy.m */; };
-		7D870D4CD944FAB3D87E4F750B33033E /* RSTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E929BD336096456D278F08F69D77F9C /* RSTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8E13A1DCA036F77CB9FB73EAAEADAC62 /* RSKitExtension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E52C20ED9C757581E97881210755B141 /* RSKitExtension-dummy.m */; };
 		B12A810EEFF459BD1F9D7F78DE7CF0D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		BF26D4F743FDB88FB43B12529F7E8857 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 198099B9631B62A3A140FFE07AA92E10 /* ReplaceMe.m */; };
-		D86C639EB8D665012FC93C06519D108F /* RSKitExtension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FE476360ADB32BFCB3F1824A7513FEC0 /* RSKitExtension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D2D399F07F98C4FDF9A91DB47EB3B760 /* RSTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 786883BCE2D776638191C5BE81CDC46E /* RSTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E092528D9BFC19B06FC40D19FD0F802B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		E428418F1D466175C47CA84DA350C217 /* RSCountdownTool.h in Headers */ = {isa = PBXBuildFile; fileRef = E85660A8D56280E0B3A59C9899CC0B76 /* RSCountdownTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F02D4D1C3A2045434EC288B1AE032385 /* Pods-RSKitExtension_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 75532A1B54DCCF4EB0CFF1B28436E49D /* Pods-RSKitExtension_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F39BEFA26CEB4B874A2685863F0F4FDF /* RSTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 198FB75C3C79186A820DCF0EC0CB0C84 /* RSTextView.m */; };
+		FD4D4AC18A1B5BDA3E3C1B10CACDCEDB /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 54BE5E18E1FAE63FDE6395CEB3D6A71A /* ReplaceMe.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,40 +41,42 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		05532746F4564F7F5657D1E8B638D6EF /* RSKitExtension-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RSKitExtension-prefix.pch"; sourceTree = "<group>"; };
+		0176BFEA060BE74A25E58E6D07E8B9F0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		06A68262E69EF48E7C3C8587547460AE /* Pods-RSKitExtension_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RSKitExtension_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		0D43FC9CC107524094AEB6D9FA053C47 /* Pods-RSKitExtension_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RSKitExtension_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		13C39AC1C2FA68277FF0055E13745B82 /* RSKitExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RSKitExtension.framework; path = RSKitExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		13EEA8899881541639CF6596F07BC9CB /* Pods-RSKitExtension_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RSKitExtension_Example-Info.plist"; sourceTree = "<group>"; };
 		144C6FB0BE917CF0288B12A20F4AA657 /* Pods-RSKitExtension_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RSKitExtension_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		198099B9631B62A3A140FFE07AA92E10 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = RSKitExtension/Classes/ReplaceMe.m; sourceTree = "<group>"; };
-		198FB75C3C79186A820DCF0EC0CB0C84 /* RSTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RSTextView.m; sourceTree = "<group>"; };
 		1C63B18BBC425FD8A540CE337EEB0696 /* Pods-RSKitExtension_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RSKitExtension_Example-frameworks.sh"; sourceTree = "<group>"; };
 		20FD4762DFBF8C46EC59233D25196D86 /* Pods-RSKitExtension_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RSKitExtension_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		28DCB111862EA6718F880EBD8E2B1600 /* Pods-RSKitExtension_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RSKitExtension_Example-dummy.m"; sourceTree = "<group>"; };
 		2E003815835801DB1AEF0F7A683A65F3 /* Pods-RSKitExtension_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RSKitExtension_Example.modulemap"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		324C628F307788C6330C12B7A5887D1C /* RSKitExtension-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "RSKitExtension-Info.plist"; sourceTree = "<group>"; };
 		37E14C7A40D9601688C2A4244A22922B /* Pods-RSKitExtension_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RSKitExtension_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		417D24B9B83B3E20436D4C14A5E11DD4 /* RSKitExtension.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RSKitExtension.xcconfig; sourceTree = "<group>"; };
+		3EFFC690DB9C1474998EA7C47BF37574 /* RSKitExtension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RSKitExtension.modulemap; sourceTree = "<group>"; };
+		40218482ACB9266AF78531B48A365885 /* RSKitExtension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RSKitExtension-umbrella.h"; sourceTree = "<group>"; };
 		42E3575DF17E6E705D6851B471563A8D /* Pods-RSKitExtension_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RSKitExtension_Example-umbrella.h"; sourceTree = "<group>"; };
-		4CCE8094897428C00F992330347D568D /* RSKitExtension.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = RSKitExtension.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		4BC66A3CF280A6E1C47283649AB4FF5F /* RSTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RSTextView.m; sourceTree = "<group>"; };
+		50634A1B7AF8623514A9BEB71067220C /* RSKitExtension.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = RSKitExtension.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		54A8E6C0A9C0EF4CBBAC927FE4F021FD /* Pods-RSKitExtension_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RSKitExtension_Tests-Info.plist"; sourceTree = "<group>"; };
+		54BE5E18E1FAE63FDE6395CEB3D6A71A /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = RSKitExtension/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		551660DBD6EDF3B5310D488A8FE3F527 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		5A1A9BE7242EDA7D414C53D3844DAB73 /* Pods-RSKitExtension_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RSKitExtension_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		6520C0BD22485DE52D1010401AA01401 /* Pods-RSKitExtension_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RSKitExtension_Tests.modulemap"; sourceTree = "<group>"; };
+		66E446069F36152715CE1BD1424CA47F /* RSKitExtension.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RSKitExtension.xcconfig; sourceTree = "<group>"; };
 		75532A1B54DCCF4EB0CFF1B28436E49D /* Pods-RSKitExtension_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RSKitExtension_Tests-umbrella.h"; sourceTree = "<group>"; };
-		8E929BD336096456D278F08F69D77F9C /* RSTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RSTextView.h; sourceTree = "<group>"; };
-		9137D172320CCDBAFAA687661C7B6361 /* RSKitExtension-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "RSKitExtension-Info.plist"; sourceTree = "<group>"; };
+		786883BCE2D776638191C5BE81CDC46E /* RSTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RSTextView.h; sourceTree = "<group>"; };
 		91F7423C5E0D246133E003C85C5E7F85 /* Pods-RSKitExtension_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RSKitExtension_Tests-dummy.m"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		ACD07282AC7D6E3B2666F7BE9B5A7E1C /* Pods_RSKitExtension_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RSKitExtension_Example.framework; path = "Pods-RSKitExtension_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C15CDF5881607A6F636818785BA04D6D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		C3E7BCD63C1E46B69782CA6999CD5386 /* RSKitExtension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RSKitExtension.modulemap; sourceTree = "<group>"; };
+		B395D7C319B056E1DDA1CAF6603B3292 /* RSKitExtension-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RSKitExtension-prefix.pch"; sourceTree = "<group>"; };
+		B7794740127B6F73EAD136F5EA78D15B /* RSKitExtension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RSKitExtension-dummy.m"; sourceTree = "<group>"; };
 		CAEA811F99C16AABF52CB062965BE160 /* Pods-RSKitExtension_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RSKitExtension_Example.release.xcconfig"; sourceTree = "<group>"; };
-		CCBD36B9F7783A0EE84004302E16EB19 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		CF43DA2214046824A4ADC45B7BE7BB17 /* Pods-RSKitExtension_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RSKitExtension_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		D2442C2A6E3BC07A65A3AA98B54F8F45 /* RSCountdownTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RSCountdownTool.m; sourceTree = "<group>"; };
 		D3F78AF2B3C0E211BFED816870504A42 /* Pods_RSKitExtension_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RSKitExtension_Tests.framework; path = "Pods-RSKitExtension_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E52C20ED9C757581E97881210755B141 /* RSKitExtension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RSKitExtension-dummy.m"; sourceTree = "<group>"; };
-		FE476360ADB32BFCB3F1824A7513FEC0 /* RSKitExtension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RSKitExtension-umbrella.h"; sourceTree = "<group>"; };
+		E85660A8D56280E0B3A59C9899CC0B76 /* RSCountdownTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RSCountdownTool.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,17 +96,38 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5F171D33905378A64102BC0FFCAA08AC /* Frameworks */ = {
+		532C4D582A60FA343BFA9AF3A8A4E0FF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2513ACA4FB8DE99565EE97723B27CFAD /* Foundation.framework in Frameworks */,
+				035CFDE50B8EDA0AF719732E9287A0BB /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		078C243570B832C989168223F88804D1 /* RSKitExtension */ = {
+			isa = PBXGroup;
+			children = (
+				54BE5E18E1FAE63FDE6395CEB3D6A71A /* ReplaceMe.m */,
+				DB864ACD14C63A22A871E3F6864EF3C0 /* Pod */,
+				8779E6DFEF38A09D2036E82F99CC1F44 /* RSTextView */,
+				DDC6AC577CE5586C3B0832860E9939AC /* RSTool */,
+				74B4EA570FA4A9B94EDB4D6F007E240B /* Support Files */,
+			);
+			name = RSKitExtension;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		1885C6727027F4F5373F524F27AF7BB9 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				078C243570B832C989168223F88804D1 /* RSKitExtension */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		3D6F97171FAEE511D003F4E74C8E7888 /* Pods-RSKitExtension_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -136,34 +161,38 @@
 			path = "Target Support Files/Pods-RSKitExtension_Example";
 			sourceTree = "<group>";
 		};
-		4C39758A8873B090CE32E405A465001B /* RSTextView */ = {
+		6451E0376291C7BEC0F0A3D7D17E3F0D /* RSCountdownTool */ = {
 			isa = PBXGroup;
 			children = (
-				8E929BD336096456D278F08F69D77F9C /* RSTextView.h */,
-				198FB75C3C79186A820DCF0EC0CB0C84 /* RSTextView.m */,
+				E85660A8D56280E0B3A59C9899CC0B76 /* RSCountdownTool.h */,
+				D2442C2A6E3BC07A65A3AA98B54F8F45 /* RSCountdownTool.m */,
+			);
+			name = RSCountdownTool;
+			path = RSCountdownTool;
+			sourceTree = "<group>";
+		};
+		74B4EA570FA4A9B94EDB4D6F007E240B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3EFFC690DB9C1474998EA7C47BF37574 /* RSKitExtension.modulemap */,
+				66E446069F36152715CE1BD1424CA47F /* RSKitExtension.xcconfig */,
+				B7794740127B6F73EAD136F5EA78D15B /* RSKitExtension-dummy.m */,
+				324C628F307788C6330C12B7A5887D1C /* RSKitExtension-Info.plist */,
+				B395D7C319B056E1DDA1CAF6603B3292 /* RSKitExtension-prefix.pch */,
+				40218482ACB9266AF78531B48A365885 /* RSKitExtension-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/RSKitExtension";
+			sourceTree = "<group>";
+		};
+		8779E6DFEF38A09D2036E82F99CC1F44 /* RSTextView */ = {
+			isa = PBXGroup;
+			children = (
+				786883BCE2D776638191C5BE81CDC46E /* RSTextView.h */,
+				4BC66A3CF280A6E1C47283649AB4FF5F /* RSTextView.m */,
 			);
 			name = RSTextView;
 			path = RSKitExtension/Classes/RSTextView;
-			sourceTree = "<group>";
-		};
-		57B81D033A07A1D2F659B410D387762D /* RSKitExtension */ = {
-			isa = PBXGroup;
-			children = (
-				198099B9631B62A3A140FFE07AA92E10 /* ReplaceMe.m */,
-				DBF28620F85CBF5856F1E563A8C60EEE /* Pod */,
-				4C39758A8873B090CE32E405A465001B /* RSTextView */,
-				C88D0AFD80B7FA987AD180145B5F9EE9 /* Support Files */,
-			);
-			name = RSKitExtension;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		9259A014633CA75263083AEADE5CC6B6 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				57B81D033A07A1D2F659B410D387762D /* RSKitExtension */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		9E2084C0F1BAE9AD2A3F11FDAE774BEB /* Products */ = {
@@ -193,25 +222,11 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		C88D0AFD80B7FA987AD180145B5F9EE9 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				C3E7BCD63C1E46B69782CA6999CD5386 /* RSKitExtension.modulemap */,
-				417D24B9B83B3E20436D4C14A5E11DD4 /* RSKitExtension.xcconfig */,
-				E52C20ED9C757581E97881210755B141 /* RSKitExtension-dummy.m */,
-				9137D172320CCDBAFAA687661C7B6361 /* RSKitExtension-Info.plist */,
-				05532746F4564F7F5657D1E8B638D6EF /* RSKitExtension-prefix.pch */,
-				FE476360ADB32BFCB3F1824A7513FEC0 /* RSKitExtension-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/RSKitExtension";
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				9259A014633CA75263083AEADE5CC6B6 /* Development Pods */,
+				1885C6727027F4F5373F524F27AF7BB9 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				9E2084C0F1BAE9AD2A3F11FDAE774BEB /* Products */,
 				C42370F7EB6A8E7907964F9443749644 /* Targets Support Files */,
@@ -226,33 +241,43 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		DBF28620F85CBF5856F1E563A8C60EEE /* Pod */ = {
+		DB864ACD14C63A22A871E3F6864EF3C0 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				C15CDF5881607A6F636818785BA04D6D /* LICENSE */,
-				CCBD36B9F7783A0EE84004302E16EB19 /* README.md */,
-				4CCE8094897428C00F992330347D568D /* RSKitExtension.podspec */,
+				0176BFEA060BE74A25E58E6D07E8B9F0 /* LICENSE */,
+				551660DBD6EDF3B5310D488A8FE3F527 /* README.md */,
+				50634A1B7AF8623514A9BEB71067220C /* RSKitExtension.podspec */,
 			);
 			name = Pod;
+			sourceTree = "<group>";
+		};
+		DDC6AC577CE5586C3B0832860E9939AC /* RSTool */ = {
+			isa = PBXGroup;
+			children = (
+				6451E0376291C7BEC0F0A3D7D17E3F0D /* RSCountdownTool */,
+			);
+			name = RSTool;
+			path = RSKitExtension/Classes/RSTool;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		0FB5DD7B5E30441FDE9F450B6B12D8E9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E428418F1D466175C47CA84DA350C217 /* RSCountdownTool.h in Headers */,
+				23691766EC1CB500B5AD0F78F2CFC199 /* RSKitExtension-umbrella.h in Headers */,
+				D2D399F07F98C4FDF9A91DB47EB3B760 /* RSTextView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		15D374BC22EE0F3B47F3EC1BEB00E8A0 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				25F463F51AE58AE5C095A869FF757209 /* Pods-RSKitExtension_Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9F583C9C83E8C12173BD3668C0671D76 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D86C639EB8D665012FC93C06519D108F /* RSKitExtension-umbrella.h in Headers */,
-				7D870D4CD944FAB3D87E4F750B33033E /* RSTextView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,12 +313,12 @@
 		};
 		C5B719D7D459A7FEDC9CCF08E909582E /* RSKitExtension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5EE8E6CBC749064CCF92DDD76B7F522B /* Build configuration list for PBXNativeTarget "RSKitExtension" */;
+			buildConfigurationList = 43372CA522C43F6E0E51CFACBCF17D23 /* Build configuration list for PBXNativeTarget "RSKitExtension" */;
 			buildPhases = (
-				9F583C9C83E8C12173BD3668C0671D76 /* Headers */,
-				0EA8F1C4347998543F42759A9B557B8F /* Sources */,
-				5F171D33905378A64102BC0FFCAA08AC /* Frameworks */,
-				878C4E589935C9C1996635F987CEEB4D /* Resources */,
+				0FB5DD7B5E30441FDE9F450B6B12D8E9 /* Headers */,
+				61AF3409A3945D76C19202643B67BA72 /* Sources */,
+				532C4D582A60FA343BFA9AF3A8A4E0FF /* Frameworks */,
+				89E9220C76BAD353759E18B20FBA9A0A /* Resources */,
 			);
 			buildRules = (
 			);
@@ -367,7 +392,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		878C4E589935C9C1996635F987CEEB4D /* Resources */ = {
+		89E9220C76BAD353759E18B20FBA9A0A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -377,13 +402,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0EA8F1C4347998543F42759A9B557B8F /* Sources */ = {
+		61AF3409A3945D76C19202643B67BA72 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF26D4F743FDB88FB43B12529F7E8857 /* ReplaceMe.m in Sources */,
-				8E13A1DCA036F77CB9FB73EAAEADAC62 /* RSKitExtension-dummy.m in Sources */,
-				F39BEFA26CEB4B874A2685863F0F4FDF /* RSTextView.m in Sources */,
+				FD4D4AC18A1B5BDA3E3C1B10CACDCEDB /* ReplaceMe.m in Sources */,
+				02DAA39D41089D6FA09DE3BB7F168318 /* RSCountdownTool.m in Sources */,
+				3372677480A46DAD7B87336AACDD9C8C /* RSKitExtension-dummy.m in Sources */,
+				270AE8F451AF112B6535FF5197D0E41D /* RSTextView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -455,9 +481,9 @@
 			};
 			name = Release;
 		};
-		43B8E6D0A9E14AEABD120A6C4E82BBCE /* Release */ = {
+		2F93CD8237127BC068EE3D4353BD2A98 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 417D24B9B83B3E20436D4C14A5E11DD4 /* RSKitExtension.xcconfig */;
+			baseConfigurationReference = 66E446069F36152715CE1BD1424CA47F /* RSKitExtension.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -481,11 +507,10 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -711,9 +736,9 @@
 			};
 			name = Debug;
 		};
-		A5371DAF001F2C25056A0280619069EF /* Debug */ = {
+		D099CE1C604AC64140FF01D34AAB9ABA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 417D24B9B83B3E20436D4C14A5E11DD4 /* RSKitExtension.xcconfig */;
+			baseConfigurationReference = 66E446069F36152715CE1BD1424CA47F /* RSKitExtension.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -737,10 +762,11 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
@@ -750,6 +776,15 @@
 			buildConfigurations = (
 				8BE201D04073B9AF13F9F631EB344C45 /* Debug */,
 				0A095635B5BB45E00DDE599F02BF2B71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43372CA522C43F6E0E51CFACBCF17D23 /* Build configuration list for PBXNativeTarget "RSKitExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F93CD8237127BC068EE3D4353BD2A98 /* Debug */,
+				D099CE1C604AC64140FF01D34AAB9ABA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -768,15 +803,6 @@
 			buildConfigurations = (
 				528CFCCE84F1D780C9790438B604E63D /* Debug */,
 				4F148B77EB025E181A9A8998D2CC8EBB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		5EE8E6CBC749064CCF92DDD76B7F522B /* Build configuration list for PBXNativeTarget "RSKitExtension" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A5371DAF001F2C25056A0280619069EF /* Debug */,
-				43B8E6D0A9E14AEABD120A6C4E82BBCE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

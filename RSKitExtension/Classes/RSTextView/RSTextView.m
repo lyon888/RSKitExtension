@@ -60,7 +60,7 @@
         rect.origin.y = 8;
         rect.size.width -= rect.origin.x;
     } else {
-        //绘制的文字x边距跟实际的文本有5ot的偏差
+        //绘制的文字x边距跟实际的文本有5pt的偏差
         CGFloat diff = 5.f;
         UIEdgeInsets inset = self.textContainerInset;
         rect.origin.x = inset.left + diff;
