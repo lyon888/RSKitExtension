@@ -22,7 +22,7 @@
 {
     [super viewDidLoad];
     
-    self.datas = @[@"RSTextView"];
+    self.datas = @[@"RSTextView",@"RSResponderChain"];
     self.tableView.delegate = self;
     self.tableView.dataSource = self;
 }

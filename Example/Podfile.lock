@@ -1,16 +1,23 @@
 PODS:
+  - RSAnimator (1.0.1)
   - RSKitExtension (1.0.0)
 
 DEPENDENCIES:
+  - RSAnimator (~> 1.0.1)
   - RSKitExtension (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - RSAnimator
 
 EXTERNAL SOURCES:
   RSKitExtension:
     :path: "../"
 
 SPEC CHECKSUMS:
+  RSAnimator: 56ee0697f22e668505c873af657e13a3cf0c3511
   RSKitExtension: 581c2d19e93fa57ef9ab3495b10d429d8bc338de
 
-PODFILE CHECKSUM: c0e999c40dcffc14b6c29496c4e42e0aff515279
+PODFILE CHECKSUM: 797f9c8d25c98c12d6723d1af64370fb8ca3b97c
 
 COCOAPODS: 1.8.4

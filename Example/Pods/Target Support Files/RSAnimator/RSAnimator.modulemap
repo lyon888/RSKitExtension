@@ -1,0 +1,6 @@
+framework module RSAnimator {
+  umbrella header "RSAnimator-umbrella.h"
+
+  export *
+  module * { export * }
+}
