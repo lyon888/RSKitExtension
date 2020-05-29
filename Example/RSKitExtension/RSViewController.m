@@ -8,6 +8,7 @@
 
 #import "RSViewController.h"
 #import "RSTextViewController.h"
+#import "RSScrollConfilctController.h"
 
 @interface RSViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
@@ -22,7 +23,9 @@
 {
     [super viewDidLoad];
     
-    self.datas = @[@"RSTextView",@"RSResponderChain"];
+    [self.navigationController pushViewController:RSScrollConfilctController.new animated:YES];
+    
+    self.datas = @[@"RSTextView",@"RSResponderChain",@"RSScrollConfilct"];
     self.tableView.delegate = self;
     self.tableView.dataSource = self;
 }

@@ -16,6 +16,8 @@
 		13727E8A2473C16600A3A1DF /* UIView+RSCreate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13727E892473C16600A3A1DF /* UIView+RSCreate.m */; };
 		13727E8E2473C20000A3A1DF /* RSParentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13727E8D2473C20000A3A1DF /* RSParentViewController.m */; };
 		13727E912473C37700A3A1DF /* UIColor+RSAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 13727E902473C37700A3A1DF /* UIColor+RSAddition.m */; };
+		13964496247F4C6D00F97CA7 /* RSScrollConfilctController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13964494247F4C6D00F97CA7 /* RSScrollConfilctController.m */; };
+		13964497247F4C6D00F97CA7 /* RSScrollConfilctController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13964495247F4C6D00F97CA7 /* RSScrollConfilctController.xib */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -62,6 +64,9 @@
 		13727E8D2473C20000A3A1DF /* RSParentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSParentViewController.m; sourceTree = "<group>"; };
 		13727E8F2473C37700A3A1DF /* UIColor+RSAddition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+RSAddition.h"; sourceTree = "<group>"; };
 		13727E902473C37700A3A1DF /* UIColor+RSAddition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+RSAddition.m"; sourceTree = "<group>"; };
+		13964493247F4C6D00F97CA7 /* RSScrollConfilctController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSScrollConfilctController.h; sourceTree = "<group>"; };
+		13964494247F4C6D00F97CA7 /* RSScrollConfilctController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSScrollConfilctController.m; sourceTree = "<group>"; };
+		13964495247F4C6D00F97CA7 /* RSScrollConfilctController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RSScrollConfilctController.xib; sourceTree = "<group>"; };
 		1C89F948AF9F4E4A589CA795 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		317CA6F535FF16C7A5936311 /* Pods-RSKitExtension_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RSKitExtension_Tests.debug.xcconfig"; path = "Target Support Files/Pods-RSKitExtension_Tests/Pods-RSKitExtension_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		5BD6C1C0D674BCA7586B40F9 /* Pods-RSKitExtension_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RSKitExtension_Tests.release.xcconfig"; path = "Target Support Files/Pods-RSKitExtension_Tests/Pods-RSKitExtension_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -140,8 +145,8 @@
 		136B916A24668E8800480F58 /* RSTextViewControl */ = {
 			isa = PBXGroup;
 			children = (
-				136B916B24668E8800480F58 /* RSTextViewController.m */,
 				136B916C24668E8800480F58 /* RSTextViewController.h */,
+				136B916B24668E8800480F58 /* RSTextViewController.m */,
 				136B916D24668E8800480F58 /* RSTextViewController.xib */,
 			);
 			path = RSTextViewControl;
@@ -240,6 +245,9 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* RSViewController.h */,
 				6003F5A6195388D20070C39A /* RSViewController.m */,
+				13964493247F4C6D00F97CA7 /* RSScrollConfilctController.h */,
+				13964494247F4C6D00F97CA7 /* RSScrollConfilctController.m */,
+				13964495247F4C6D00F97CA7 /* RSScrollConfilctController.xib */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -380,6 +388,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13964497247F4C6D00F97CA7 /* RSScrollConfilctController.xib in Resources */,
 				13727E852473BCA100A3A1DF /* RSResponderChainTableCell.xib in Resources */,
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
@@ -480,6 +489,7 @@
 				6003F5A7195388D20070C39A /* RSViewController.m in Sources */,
 				136B916E24668E8800480F58 /* RSTextViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				13964496247F4C6D00F97CA7 /* RSScrollConfilctController.m in Sources */,
 				13727E842473BCA100A3A1DF /* RSResponderChainTableCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

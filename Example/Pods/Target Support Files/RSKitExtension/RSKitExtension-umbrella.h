@@ -13,6 +13,7 @@
 #import "RSTextView.h"
 #import "RSCountdownTool.h"
 #import "UIResponder+RSRouter.h"
+#import "FMScrollTool.h"
 
 FOUNDATION_EXPORT double RSKitExtensionVersionNumber;
 FOUNDATION_EXPORT const unsigned char RSKitExtensionVersionString[];

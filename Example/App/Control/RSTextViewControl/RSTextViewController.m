@@ -9,7 +9,7 @@
 #import "RSTextViewController.h"
 #import <RSTextView.h>
 
-@interface RSTextViewController ()
+@interface RSTextViewController ()<UITextViewDelegate>
 @property (weak, nonatomic) IBOutlet RSTextView *textView;
 
 @end
@@ -18,10 +18,19 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+    self.textView.delegate = self;
     self.textView.placeholder = @"我是一条有灵魂的占位符";
     self.textView.textContainerInset = UIEdgeInsetsMake(10, 50, 10, 20);
 }
 
+/// 禁止选择区域
+- (void)textViewDidChangeSelection:(UITextView *)textView
+{
+    NSRange range = textView.selectedRange;
+    if (textView.selectedRange.location < 3) {
+        range.location = 3;
+    }
+    textView.selectedRange = range;
+}
 
 @end
