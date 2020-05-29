@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface RSTextView : UITextView
+@interface RSTextView : UITextView<UITextInput>
 
 /// 占位符文本
 @property (nonatomic, copy) NSString *placeholder;
